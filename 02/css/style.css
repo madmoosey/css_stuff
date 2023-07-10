@@ -1,0 +1,39 @@
+
+body {
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+
+p {
+    color: purple;
+}
+
+p {
+    color: red;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} Nested rules*/
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
