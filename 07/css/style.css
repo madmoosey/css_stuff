@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 15%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    /* text-indent: 2em; Good to use em */
+    line-height: 1.5;
+    /* letter-spacing: 0.5em; */
+    text-align: justify;
+    /* word-spacing: 0.5em; */
+    /* font-weight: bold; */
+    /* font-style: oblique; */
+}
+
+a {
+    text-decoration: underline;
+    /* cursor: crosshair; */
+    color: hsl(207, 44%, 49%);
+}
+
+/* Pseudo class order matters */
+
+a:visited{
+    color: hsl(207, 44%, 80%);
+}
+
+a:hover, a:focus{
+    color: hsl(207, 44%, 90%);
+}
+
+a:active {
+    color:yellow
+}
+
+
+
+
