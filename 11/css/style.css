@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-size: 2rem;
+    font-family: OpenSans, sans-serif;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: bisque;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear:both;
+}
+
+section {
+    background-color: azure;
+    border: 1px solid #333;
+    padding: 1rem;
+    /* overflow: auto; legacy solution */
+    display: flow-root;
+}
